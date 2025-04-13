@@ -206,6 +206,10 @@ footer a:hover {
     max-width: 90%;
     margin: 0 auto;
   }
+
+  .hero-button {
+    align-self: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -215,6 +219,10 @@ footer a:hover {
 
   .hero-image img {
     max-width: 80%;
+  }
+
+  .hero-button {
+    align-self: center;
   }
 }
 
@@ -301,6 +309,10 @@ footer a:hover {
 
   .feature p {
     font-size: 0.9rem;
+  }
+
+  .hero-text {
+    padding-top: 30px;
   }
 }
 
