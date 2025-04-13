@@ -1,4 +1,3 @@
-/* General styles for the Navbar */
 .navbar {
     position: fixed;
     top: 0;
@@ -15,11 +14,10 @@
 }
 
 .navbarHidden {
-    transform: translateY(-100%); /* Slide navbar out */
-    opacity: 0; /* Fade out */
+    transform: translateY(-100%);
+    opacity: 0;
 }
 
-/* Navbar container for centering items */
 .navbarContainer {
     width: 100%;
     margin: 0 auto;
@@ -29,7 +27,6 @@
     align-items: center;
 }
 
-/* Logo styles */
 .logo {
     display: flex;
     align-items: center;
@@ -47,7 +44,6 @@
     margin-right: 10px;
 }
 
-/* Hamburger Menu - Rectangle */
 .hamburger {
     background: none;
     border: none;
@@ -57,77 +53,71 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 40px; /* Width of the button */
-    height: 30px; /* Height of the button */
+    width: 40px;
+    height: 30px;
     transition: background-color 0.2s ease;
     text-decoration: none;
 }
 
 .hamburger:focus,
 .hamburger:active {
-    outline: none; /* Remove blue outline when clicked/focused */
-    box-shadow: none; /* Prevent any glowing/shining effect */
+    outline: none;
+    box-shadow: none;
 }
 
 .hamburgerLine {
-    width: 100%; /* Full width */
-    height: 3px; /* Thickness of each line */
-    background-color: #422701; /* Line color */
-    margin: 3px 0; /* Space between lines */
+    width: 100%;
+    height: 3px;
+    background-color: #422701;
+    margin: 3px 0;
     transition: background-color 0.2s ease;
 }
 
-/* Navigation Links */
 .navLinks {
-    display: none; /* Hide links in mobile view */
-    flex-direction: column; /* Stack links vertically in mobile */
-    align-items: center; /* Center align links */
-    position: absolute; /* Position links absolutely below navbar */
-    top: 60px; /* Adjust to match navbar height */
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
     right: 0;
     left: 0;
     text-decoration: none;
-    background-color: #f8f8f8; /* Dropdown background */
+    background-color: #f8f8f8;
     z-index: 998;
     padding: 1rem 0;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for dropdown */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     font-weight: bold;
 }
 
 .navLinks.open {
-    display: flex; /* Display links as a flex container */
-    opacity: 1; /* Makes links visible */
-    max-height: 400px; /* Restrict height to prevent overflow */
+    display: flex;
+    opacity: 1;
+    max-height: 400px;
     transition: max-height 0.4s ease-in-out, opacity 0.4s ease-in-out;
 }
 
 .navLink {
-    padding: 0.8rem 1rem; /* Add more touch-friendly spacing */
-    text-align: center; /* Center align text */
-    width: 100%; /* Make links span the full width */
-    color: #705e46; /* Default link color */
-    border-bottom: 1px solid #ddd; /* Separator between links */
+    padding: 0.8rem 1rem;
+    text-align: center;
+    width: 100%;
+    color: #705e46;
+    border-bottom: 1px solid #ddd;
     text-decoration: none;
     border-radius: 4px;
 }
 
 .navLink:hover {
-    color: #ffffff; /* Change to white on hover */
-    background-color: #705e46; /* Add a subtle hover background */
+    color: #ffffff;
+    background-color: #705e46;
 }
 
 .navLink:last-child {
     border-bottom: none;
 }
 
-.navLink:hover {
-    color: #ffffff;
-}
-
-/* Mobile-only menu container */
 @media (max-width: 768px) {
     .hamburger {
-        display: flex; /* Show hamburger menu */
+        display: flex;
     }
 
     .navLinks {
@@ -139,25 +129,23 @@
     }
 }
 
-/* For desktop screens */
 @media (min-width: 768px) {
     .hamburger {
-        display: none; /* Hide hamburger on desktop */
+        display: none;
     }
 
     .navLinks {
-        display: flex !important; /* Always display links in a row on desktop */
-        flex-direction: row; /* Horizontal alignment for links */
-        position: static; /* Disable absolute positioning */
-        background: none; /* Remove dropdown background */
-        box-shadow: none; /* Remove shadow on desktop */
-        gap: 1rem; /* Add small gap between links */
-        padding: 0; /* Remove padding */
-        max-height: none; /* No height restriction */
+        display: flex !important;
+        flex-direction: row;
+        position: static;
+        background: none;
+        box-shadow: none;
+        gap: 1rem;
+        padding: 0;
+        max-height: none;
     }
 
     .navLink {
-        border-bottom: none; /* Remove separators in desktop view */
-        padding: 0.5rem 1rem; /* Adjust link padding for desktop */
+        border-bottom: none;
     }
 }
