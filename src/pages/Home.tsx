@@ -80,23 +80,73 @@ const Home = () => (
             <div className="feature">
                 <div className="feature-icon">📋</div>
                 <h3 className="feature-title">Organized Content</h3>
-                <p className="feature-description">Well-structured sections allow a seamless flow of
-                    information for users.</p>
+                <p className="feature-description">
+                    Clear RESTful APIs, modular backend code, and structured data make integrations seamless for clients.
+                </p>
+            </div>
+            <div className="feature">
+                <div className="feature-icon">✨</div>
+                <h3 className="feature-title">Efficient Performance</h3>
+                <p className="feature-description">
+                    Optimized server-side logic, caching and database queries guarantee speed and reliability for any application.
+                </p>
+            </div>
+            <div className="feature">
+                <div className="feature-icon">🛠️</div>
+                <h3 className="feature-title">Customizable APIs</h3>
+                <p className="feature-description">
+                    Tailored API endpoints for dynamic and scalable solutions to meet unique project requirements.
+                </p>
+            </div>
+            <div className="feature">
+                <div className="feature-icon">🔒</div>
+                <h3 className="feature-title">Secure Architecture</h3>
+                <p className="feature-description">
+                    Robust authentication, authorization, and input validation ensure the highest level of security for users.
+                </p>
             </div>
         </div>
-        <section className="testimonials">
-            <div className="testimonial">
-                <p>"The cappuccino design aesthetic has brought a whole new level of warmth and comfort to our website.
-                    We love it!"</p>
-                <p className="testimonial-author">- Jane Doe</p>
+        <div className="timeline-section">
+            <h2 className="section-title">My Journey</h2>
+            <div className="timeline">
+                <div className="timeline-item">
+                    <div className="timeline-dot"></div>
+                    <div className="timeline-date">2021</div>
+                    <h3 className="timeline-title">Started Fullstack Development</h3>
+                    <p className="timeline-description">
+                        Began my journey into web development, learning core technologies like
+                        HTML, CSS, and JavaScript, as well as building my first React applications.
+                    </p>
+                </div>
+                <div className="timeline-item">
+                    <div className="timeline-dot"></div>
+                    <div className="timeline-date">2022</div>
+                    <h3 className="timeline-title">First Freelance Project</h3>
+                    <p className="timeline-description">
+                        Delivered a fully responsive e-commerce website for a client,
+                        implementing features like payment integration, user authentication, and a product catalog.
+                    </p>
+                </div>
+                <div className="timeline-item">
+                    <div className="timeline-dot"></div>
+                    <div className="timeline-date">2023</div>
+                    <h3 className="timeline-title">Joined a Startup as a Developer</h3>
+                    <p className="timeline-description">
+                        Played a key role in building scalable APIs and implementing front-end interfaces
+                        for the company's new SaaS platform using React and Node.js.
+                    </p>
+                </div>
+                <div className="timeline-item">
+                    <div className="timeline-dot"></div>
+                    <div className="timeline-date">2024</div>
+                    <h3 className="timeline-title">Launched a Side Project</h3>
+                    <p className="timeline-description">
+                        Developed and launched a productivity web app, integrating real-time collaboration features
+                        with WebSocket and elegant UI design.
+                    </p>
+                </div>
             </div>
-            <div className="testimonial">
-                <p>"This theme is like a fresh cup of coffee for the eyes—calming and energizing. Absolutely
-                    brilliant."</p>
-                <p className="testimonial-author">- Michael Smith</p>
-            </div>
-        </section>
-
+        </div>
         <section className="cta">
             <h2>Ready to Start?</h2>
             <p>Join the world of cappuccino design and elevate your web experience today.</p>

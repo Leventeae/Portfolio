@@ -37,7 +37,7 @@ Clone the repo and install dependencies:
 
 ```bash
 git clone https://github.com/Leventeae/Portfolio.git
-cd your-portfolio
+cd portfolio
 npm install
 ```
 ## 🌟 Features
