@@ -7,19 +7,17 @@
 body, html {
   font-family: 'Segoe UI', sans-serif;
   background: linear-gradient(180deg, #F9F6F1 0%, #EADDC8 100%);
-  color: #422701; /* Rich dark text */
+  color: #422701;
   min-height: 100vh;
   scroll-behavior: smooth;
 }
 
-/* Main content wrapper with padding so it's not hidden under navbar */
 main {
   padding: 100px 2rem 2rem;
   max-width: 1000px;
   margin: 0 auto;
 }
 
-/* Headings */
 h1, h2, h3 {
   color: #422701;
   margin-bottom: 1rem;
@@ -31,7 +29,6 @@ p {
   line-height: 1.6;
 }
 
-/* Subtle section styling */
 section {
   background: linear-gradient(145deg, #ffffff, #f3ede6);
   border-radius: 12px;
@@ -61,7 +58,6 @@ button:active {
   transform: scale(0.95);
 }
 
-/* Links */
 a {
   color: #705E46;
   transition: color 0.2s ease;
@@ -269,9 +265,9 @@ footer a:hover {
 
 .features {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns in each row */
-  gap: 1.5rem; /* Spacing between items */
-  padding: 2rem; /* Add padding to the whole section */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 2rem;
   background-color: #f9f9f9;
   border-radius: 12px;
   margin-top: 2rem;
@@ -377,7 +373,6 @@ footer a:hover {
   transform: scale(1.05);
 }
 
-/* Skills Section */
 .skills-section {
   padding: 4rem 2rem;
   background-color: #f9f9f9;
@@ -397,7 +392,6 @@ footer a:hover {
   gap: 2rem;
 }
 
-/* Individual Cards */
 .card {
   width: 100%;
   max-width: 400px;
@@ -434,7 +428,7 @@ footer a:hover {
 .card li strong {
   color: #423f3a;
 }
-/* General Section Styling */
+
 .timeline-section {
   padding: 2rem;
   margin-top: 2rem;
@@ -450,7 +444,6 @@ footer a:hover {
   margin-bottom: 1.5rem;
 }
 
-/* Timeline Structure */
 .timeline {
   position: relative;
   padding: 0;
@@ -493,7 +486,6 @@ footer a:hover {
   color: #6c757d;
 }
 
-/* Connecting Line */
 .timeline-item::before {
   content: "";
   position: absolute;
@@ -502,9 +494,9 @@ footer a:hover {
   background-color: #ddd;
   top: 0;
   left: 7px;
-  z-index: -1; /* Puts it behind the dots */
+  z-index: -1;
 }
 
 .timeline-item:last-child::before {
-  height: 0; /* No line after the last item */
+  height: 0;
 }
