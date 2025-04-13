@@ -1,20 +1,33 @@
-import { Routes, Route } from 'react-router-dom';
-import Home from './pages/Home.tsx';
-import About from './pages/About.tsx';
-import Projects from './pages/Projects.tsx';
-import Contact from './pages/Contact.tsx';
-import Navbar from './components/Navbar.tsx';
+// src/App.tsx
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
-const App = () => (
-    <>
-        <Navbar />
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/contact" element={<Contact />} />
-        </Routes>
-    </>
-);
+function Home() {
+    return <div><h1>Home Page</h1></div>;
+}
+
+function About() {
+    return <div><h1>About Page</h1></div>;
+}
+
+function NotFound() {
+    return <div><h1>404 - Page Not Found</h1></div>;
+}
+
+const App = () => {
+    return (
+        <Router>
+            <div>
+                <nav>
+                    <a href="/">Home</a> | <a href="/about">About</a>
+                </nav>
+                <Routes>
+                    <Route path="/Portfolio" element={<Home />} />
+                    <Route path="/about" element={<About />} />
+                    <Route path="*" element={<NotFound />} />
+                </Routes>
+            </div>
+        </Router>
+    );
+};
 
 export default App;
