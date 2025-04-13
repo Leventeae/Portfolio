@@ -55,7 +55,9 @@ Check out the live version here: coming soon...
 ## 📬 Contact
 Feel free to reach out if you want to collaborate or just say hi!
 
-[📧 kovacslevente.work@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=kovacslevente.work@gmail.com)
-[🔗 LinkedIn](https://www.linkedin.com/in/levente-kov%C3%A1cs-a86897358?utm_source=share&utm_campaign=share_via&utm_content=profile)
-[🐙 GitHub](https://github.com/Leventeae)
+- [📧 kovacslevente.work@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=kovacslevente.work@gmail.com)
+
+- [🔗 LinkedIn](https://www.linkedin.com/in/levente-kov%C3%A1cs-a86897358?utm_source=share&utm_campaign=share_via&utm_content=profile)
+
+- [🐙 GitHub](https://github.com/Leventeae)
 
