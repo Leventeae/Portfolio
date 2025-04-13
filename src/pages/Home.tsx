@@ -7,10 +7,10 @@ const Home = () => (
                     <b> modern, user-friendly interfaces</b>.
                     Let’s craft something exceptional together!
                 </p>
-                <a className="hero-button" href="src/assets/KovacsLeventeCV.pdf" download="KovacsLevente_resume.pdf">Download my resume</a>
+                <a className="hero-button" href="KovacsLeventeCV.pdf" download="KovacsLevente_resume.pdf">Download my resume</a>
             </div>
             <div className="hero-image">
-                <img src="src/assets/KL-IG.png" alt="Personal Portfolio Image"/>
+                <img src="./KL-IG.png" alt="Personal Portfolio Image"/>
             </div>
         </section>
         <section className="skills-section">

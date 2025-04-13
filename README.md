@@ -2,6 +2,9 @@
 
 This is my personal portfolio built using **React**, **TypeScript**, and **Vite**. It's a showcase of my projects, skills, and experiences — designed to be fast, responsive, and easy to maintain.
 
+## 📸 Live Demo
+Check out the live version here: [Portfolio](https://leventeae.github.io/Portfolio/)
+
 ## 🔧 Tech Stack
 
 - ⚛️ **React** – UI library for building interactive interfaces
@@ -48,9 +51,6 @@ npm install
 - Clean codebase with modular components
 
 - Easily extendable for blogs or additional content
-
-## 📸 Live Demo
-Check out the live version here: coming soon...
 
 ## 📬 Contact
 Feel free to reach out if you want to collaborate or just say hi!

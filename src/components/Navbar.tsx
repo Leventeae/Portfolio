@@ -38,7 +38,7 @@ const Navbar = () => {
                 {/* Logo */}
                 <Link to="/" className={styles.logo}>
                     <img
-                        src="src/assets/node-js.svg"
+                        src="node-js.svg"
                         alt="Logo"
                         className={styles.logoImage}
                     />
@@ -62,16 +62,16 @@ const Navbar = () => {
                         menuOpen ? styles.open : ""
                     }`}
                 >
-                    <Link to="#/" className={styles.navLink}>
+                    <Link to="/" className={styles.navLink}>
                         Home
                     </Link>
-                    <Link to="#/about" className={styles.navLink}>
+                    <Link to="/about" className={styles.navLink}>
                         About
                     </Link>
-                    <Link to="#/projects" className={styles.navLink}>
+                    <Link to="/projects" className={styles.navLink}>
                         Projects
                     </Link>
-                    <Link to="#/contact" className={styles.navLink}>
+                    <Link to="/contact" className={styles.navLink}>
                         Contact
                     </Link>
                 </nav>

@@ -1,9 +1,7 @@
 // src/App.tsx
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
-
-function Home() {
-    return <div><h1>Home Page</h1></div>;
-}
+import Home from "../src/pages/Home.tsx";
+import Navbar from "./components/Navbar.tsx";
 
 function About() {
     return <div><h1>About Page</h1></div>;
@@ -18,10 +16,10 @@ const App = () => {
         <Router>
             <div>
                 <nav>
-                    <a href="/">Home</a> | <a href="/about">About</a>
+                    <Navbar />
                 </nav>
                 <Routes>
-                    <Route path="/Portfolio" element={<Home />} />
+                    <Route path="/" element={<Home />} />
                     <Route path="/about" element={<About />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
