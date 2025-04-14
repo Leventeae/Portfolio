@@ -108,43 +108,75 @@ const Home = () => (
         </div>
         <div className="timeline-section">
             <h2 className="section-title">My Journey</h2>
+            <div className="timeline-container">
             <div className="timeline">
                 <div className="timeline-item">
                     <div className="timeline-dot"></div>
-                    <div className="timeline-date">2021</div>
-                    <h3 className="timeline-title">Started Fullstack Development</h3>
+                    <div className="timeline-date">2018</div>
+                    <h3 className="timeline-title">Started Learning the basics</h3>
                     <p className="timeline-description">
-                        Began my journey into web development, learning core technologies like
-                        HTML, CSS, and JavaScript, as well as building my first React applications.
+                        Began my journey into app and web development, learning core technologies like
+                        HTML, CSS, and JavaScript, as well as building my first C# desktop applications.
                     </p>
                 </div>
                 <div className="timeline-item">
                     <div className="timeline-dot"></div>
-                    <div className="timeline-date">2022</div>
-                    <h3 className="timeline-title">First Freelance Project</h3>
+                    <div className="timeline-date">2018-2023</div>
+                    <h3 className="timeline-title">High School</h3>
                     <p className="timeline-description">
-                        Delivered a fully responsive e-commerce website for a client,
-                        implementing features like payment integration, user authentication, and a product catalog.
+                        Started exploring software development by learning C# and creating simple desktop applications.
+                        Developed a strong foundation in object-oriented programming, Windows Forms (WinForms), .Net Framework and debugging practices.
+                        These early experiences fueled my passion for software engineering and problem-solving.
+                    </p>
+                </div>
+                <div className="timeline-item">
+                    <div className="timeline-dot"></div>
+                    <div className="timeline-date">2021-2023</div>
+                    <h3 className="timeline-title">High School: Expanding Skills</h3>
+                    <p className="timeline-description">
+                        Gained proficiency in Python programming, MySQL database management, and PHP for server-side development.
+                        Explored computer networking concepts, earning the <strong>CCNA Certification</strong>, and developed a strong understanding of network protocols, routing, and switching.
+                        These experiences provided a rounded foundation in full-stack development and systems infrastructure.
                     </p>
                 </div>
                 <div className="timeline-item">
                     <div className="timeline-dot"></div>
                     <div className="timeline-date">2023</div>
-                    <h3 className="timeline-title">Joined a Startup as a Developer</h3>
+                    <h3 className="timeline-title">Starting University & Exploring More Depth</h3>
                     <p className="timeline-description">
-                        Played a key role in building scalable APIs and implementing front-end interfaces
-                        for the company's new SaaS platform using React and Node.js.
+                        Started university, moving deeper into computer science fundamentals.
+                        Expanded my skills in object-oriented programming in <strong>C#</strong>,
+                        learned and practiced low-level programming languages like <strong>C</strong> and <strong>Assembly</strong>. I also further refined my knowledge in networking based on my CCNA experience.
+                        This phase reinforced a balance between high-level application development and understanding how computers operate at a low level.
                     </p>
                 </div>
                 <div className="timeline-item">
                     <div className="timeline-dot"></div>
                     <div className="timeline-date">2024</div>
-                    <h3 className="timeline-title">Launched a Side Project</h3>
+                    <h3 className="timeline-title">University: Advancing Technical Skills</h3>
                     <p className="timeline-description">
-                        Developed and launched a productivity web app, integrating real-time collaboration features
-                        with WebSocket and elegant UI design.
+                        Explored advanced concepts in computer science through in-depth university courses:<br /><br />
+
+                        <strong>Algorithms and Data Structures:</strong> Learned to implement and optimize algorithms, understand time complexity, and solve real-world computational problems.<br /><br />
+
+                        <strong>Object-Oriented Programming:</strong> Developed expertise in building scalable and maintainable software in <strong>C#</strong> using modern OOP concepts like inheritance, polymorphism, and interfaces.<br /><br />
+
+                        <strong>Programming Languages:</strong> Enhanced skills in <strong>Python</strong> and <strong>C#</strong>, focusing on practical problem-solving and small application development both individually and in teams.<br /><br />
+
+                        <strong>Databases:</strong> Strengthened proficiency in relational database concepts, SQL queries, and database design. Worked with MySQL in lab assignments to build and query well-structured databases.<br /><br />
+
+                        <strong>Web Development II:</strong> Built interactive and modern web applications, focusing on both back-end and front-end integration. Improved my understanding of responsive design concepts and web standards.<br /><br />
+
+                        These rigorous courses helped me build a stronger technical foundation and laid the groundwork for practical applications in software engineering.<br /><br />
+
+                        <strong>Development of Mobile Applications:</strong> Explored mobile application development techniques using <strong>React</strong>, focusing on creating cross-platform apps and understanding the lifecycle of mobile apps.<br /><br />
+
+                        <strong>Operating Systems:</strong> Developed a solid foundation in operating system concepts, such as process management, memory allocation, and file systems using <strong>C</strong>, with a focus on practical exercises and hands-on implementation.<br /><br />
+
+                        <strong>Programming of Database Systems:</strong> Combined programming and database skills to optimize integration, manage queries efficiently, and understand data manipulation at an advanced level.
                     </p>
                 </div>
+            </div>
             </div>
         </div>
         <section className="cta">
