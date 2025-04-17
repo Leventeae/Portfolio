@@ -31,7 +31,6 @@ p {
 
 section {
   background: linear-gradient(145deg, #ffffff, #f3ede6);
-  border-radius: 12px;
   padding: 2rem;
   margin-bottom: 2rem;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
@@ -365,9 +364,12 @@ footer a:hover {
   color: #F9F6F1;
   text-align: center;
   padding: 2rem;
-  border-radius: 12px;
-  margin: 4rem 0;
+  margin: 2rem 0;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cta p {
+  color: #D6B588;
 }
 
 .cta h2 {
@@ -522,4 +524,34 @@ footer a:hover {
 
 .timeline-description strong {
   color: #422701;
+}
+
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #D6B588;
+  color: #422701;
+  font-weight: bold;
+  border: none;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.floating-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+}
+
+.floating-button:active {
+  transform: scale(0.95);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
